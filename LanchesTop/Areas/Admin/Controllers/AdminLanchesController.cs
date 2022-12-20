@@ -77,7 +77,7 @@ namespace LanchesTop.Areas.Admin.Controllers
             }
             catch (Exception e)
             {
-                return View();
+                return View(e);
             }
             
         }
